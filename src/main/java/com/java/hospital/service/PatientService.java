@@ -26,6 +26,7 @@ public class PatientService {
         newPatient.setName(patient.getName());
         newPatient.setAdmittedDate(patient.getAdmitDate());
         newPatient.setStatus("Admitted");
+        newPatient.setExpenses(patient.getExpenses());
         newPatient.setRoomNumber(patient.getRoomNumber());
         newPatient.setDoctorName(patient.getDoctorName());
         newPatient.setAddharNumber(patient.getAddharNumber());

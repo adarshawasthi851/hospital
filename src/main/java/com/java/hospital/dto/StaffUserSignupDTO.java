@@ -10,5 +10,4 @@ public class StaffUserSignupDTO {
     private String password;
     private String name;
     private String role;
-    private String age;
 }
